@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "start http://localhost:3000 & nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "nuxt": "^3.0.0",
+    "vue-gtag-next": "^1.14.0"
+  },
+  "dependencies": {
+    "@nuxtjs-alt/proxy": "^2.1.2",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "http-proxy": "^1.18.1",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
