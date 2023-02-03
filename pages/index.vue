@@ -12,6 +12,7 @@
         <button type="submit">Submit</button>
       </form>
     </div>
+    <editor></editor>
   </div>
 </template>
 
